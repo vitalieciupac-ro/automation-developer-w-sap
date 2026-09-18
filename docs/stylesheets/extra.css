@@ -1,0 +1,55 @@
+/* UiPath brand colours applied to the Material theme */
+:root {
+  --md-primary-fg-color:        #FA4616; /* Robotic Orange */
+  --md-primary-fg-color--light: #FB6B45;
+  --md-primary-fg-color--dark:  #A32200; /* Offset Orange */
+  --md-accent-fg-color:         #0BA2B3; /* Agentic Teal */
+  --md-primary-bg-color:        #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFF;
+}
+
+/* Dark scheme tweaks */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:  #FA4616;
+  --md-accent-fg-color:   #0BA2B3;
+  --md-typeset-a-color:   #5BCBDE;
+}
+
+/* Headings a touch bolder, in Deep Blue on light backgrounds */
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 700;
+}
+[data-md-color-scheme="default"] .md-typeset h1 {
+  color: #182126; /* Deep Blue */
+}
+
+/* Make table header rows stand out (Deep Blue) */
+.md-typeset table:not([class]) th {
+  background-color: #182126;
+  color: #ffffff;
+}
+
+/* Subtle brand accent on the top navigation */
+.md-header {
+  box-shadow: 0 0 0.2rem rgba(0,0,0,.1), 0 0.2rem 0.4rem rgba(0,0,0,.2);
+}
+
+/* Custom "autopilot" admonition (Agentic Teal, sparkle icon) */
+:root {
+  --md-admonition-icon--autopilot: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4z%22/%3E%3C/svg%3E');
+}
+.md-typeset .admonition.autopilot,
+.md-typeset details.autopilot {
+  border-color: #0BA2B3;
+}
+.md-typeset .autopilot > .admonition-title,
+.md-typeset .autopilot > summary {
+  background-color: rgba(11, 162, 179, 0.10);
+}
+.md-typeset .autopilot > .admonition-title::before,
+.md-typeset .autopilot > summary::before {
+  background-color: #0BA2B3;
+  -webkit-mask-image: var(--md-admonition-icon--autopilot);
+          mask-image: var(--md-admonition-icon--autopilot);
+}

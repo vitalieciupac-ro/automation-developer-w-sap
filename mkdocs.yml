@@ -1,0 +1,81 @@
+site_name: "Automation Developer Foundations with SAP (S/4HANA and GUI)"
+site_description: A 6-hour instructor-led course for beginner UiPath Automation Developers
+site_author: UiPath Training
+# When you host on GitHub Pages this becomes https://<your-username>.github.io/<repo-name>/
+# Update the two lines below to match your GitHub username and repository name.
+site_url: https://YOUR-USERNAME.github.io/ada-course/
+repo_url: https://github.com/YOUR-USERNAME/ada-course
+repo_name: ada-course
+edit_uri: ""
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+nav:
+  - Getting Started: index.md
+  - Setup: getting-started/setup.md
+  - Agenda: foundations/agenda.md
+  - Day 1:
+      - "1. Studio, Orchestrator & Licensing": foundations/1-studio-orchestrator-licensing.md
+      - "2. DataTables & Excel": foundations/2-datatables-excel.md
+      - "3. UI Automation in SAP S/4HANA": foundations/3-ui-automation.md
+  - Day 2:
+      - "4. Debugging, Errors & Logging": foundations/4-debugging-errors.md
+      - "5. Email & PDF": foundations/5-email-pdf.md
+      - "6. Professional Projects": foundations/6-professional-projects.md
+  - "Day 3: SAP GUI Automation":
+      - Logon & Configuration: sap-gui/index.md
+      - Automating SAP GUI: sap-gui/automating.md
+      - Best Practices (Classic & SAP): sap-gui/best-practices.md
+  - Next Steps: next-steps.md
