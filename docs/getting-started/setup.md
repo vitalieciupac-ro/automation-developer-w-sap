@@ -18,7 +18,7 @@ Have the installers and access below ready before the session. You don't need ev
 
 ## Sample files
 
-[Download the sample files (ZIP)](https://YOURTENANT.sharepoint.com/sites/YOURSITE/Shared%20Documents/ADAF-Samples.zip?download=1){ .md-button .md-button--primary target="_blank" rel="noopener" }
+[Download the sample files (ZIP)](https://uipath.sharepoint.com/:f:/s/GlobalPartnerEnablementNetwork/IgBZF_v2xyn7RbfoLzT8zMv-AYnxUBLJkKmM-7rhG3oq1Vc?e=0IbVnT?download=1){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
 Unzip them to a known local path, for example `C:\ADAF\Samples`:
 
