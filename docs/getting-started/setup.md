@@ -12,13 +12,14 @@ Have the installers and access below ready before the session. You don't need ev
 | **UiPath Orchestrator (offered by UiPath)** | An Automation Cloud Community tenant is fine, and is used only for the Module 6 publishing demo. |
 | **Access to an SAP S/4HANA environment** | For Module 3. Use your organization's system or an SAP trial. If this is not possible, Module 3 falls back to a learning web application where the same concepts apply. |
 | **SAP GUI for Windows installed (SAP Logon)** | For Day 3. Install the desktop SAP client and connect it to your SAP system. Client-side GUI Scripting is enabled during Day 3. |
+| **A Google account with a Google Sheet** | For Day 3. A sheet with columns `Sales order` and `Status` that the SAP process reads and updates through a Google Sheets connection. |
 
 !!! warning "SAP access is a separate license"
     UiPath cannot provide an SAP environment of any kind. SAP is a licensed product, and access to any SAP system is granted by **SAP** under a separate commercial agreement, not by UiPath. UiPath automates SAP but does not resell or grant access to it, so this training cannot include an SAP environment. Use your organization's SAP system, or an SAP-provided trial. If none is available, Module 3 falls back to a learning web application that exercises the same UI automation concepts: selectors, synchronization, and the Object Repository.
 
 ## Sample files
 
-[Download the sample files (ZIP)](https://uipath.sharepoint.com/:f:/s/GlobalPartnerEnablementNetwork/IgBZF_v2xyn7RbfoLzT8zMv-AYnxUBLJkKmM-7rhG3oq1Vc?e=0IbVnT?download=1){ .md-button .md-button--primary target="_blank" rel="noopener" }
+[Download the sample files (ZIP)](https://YOURTENANT.sharepoint.com/sites/YOURSITE/Shared%20Documents/ADAF-Samples.zip?download=1){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
 Unzip them to a known local path, for example `C:\ADAF\Samples`:
 
